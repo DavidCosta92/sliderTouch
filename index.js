@@ -4,7 +4,7 @@ const arrayDeSlides= Array.from(document.querySelectorAll(".slide"))
 /* PROPIEDADES INICIales  */
 
 let isDragging = false; /* si esta agarrando el slide  */
-let startPos=0;         /* posicion antes de agarrar slide */
+let startPos=0;         /* posicion antes des de agarrar slide */
 let currentTranslate=0; /* diferencia de posicion ini y fin  */
 let prevTranslate =0;   /*  */
 let animationID=0;      /* animacion obtenida por metodo  */
