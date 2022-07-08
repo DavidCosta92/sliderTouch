@@ -1,0 +1,63 @@
+/* CONFIG IMPORTANTES */
+
+html, body{
+    background-color: #3333;
+
+}
+.slider-container{
+    height: 100vh;
+    overflow: hidden;
+    display: inline-flex;
+    transform: translateX(0);
+    transition: transform 0.3s ease-out;
+    cursor: grab;
+}
+
+
+/* DETALLES ESTETICOS */
+.slide{
+    width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    user-select: none;  /* se refiere a cuando el 
+    usuario selecciona texto e imagenes */
+}
+
+.grabbing{ /* se refiere a cuando el usuario hace click y
+     mantiene el click*/
+    cursor: grabbing;
+}
+
+.cuadradito1{
+    background-color: red;
+    text-align: center;
+    color: white;
+
+}
+
+.cuadradito2{
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+
+.cuadradito3{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+
+.cuadradito4{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+
+h2, h4{
+    text-align: center;
+}
+
+
